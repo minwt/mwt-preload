@@ -3,7 +3,7 @@
 Plugin Name: MWT-文章預載快取
 Plugin URI: https://wp.mwt.tw/plugin/mwt-ga
 Description: Add Google Analytics traffic in web page
-Version: 1.0
+Version: 1.1
 Author: Minggo Zhou
 Author URI: https://www.minwt.com/
 */

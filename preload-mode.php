@@ -78,7 +78,7 @@ $(function(){
    function load(i) {
      iframe = document.getElementById("loadframe");
      iframe.onload = iframe.onreadystatechange = iframeload;
-     iframe.src = arr[i];
+     iframe.src = '<?php echo plugins_url();?>/mwt-preload/loadcontent.php?u=' + arr[i];
    }
    function iframeload() {
       if (!iframe.readyState || iframe.readyState == "complete") {
